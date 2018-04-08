@@ -13,7 +13,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.teambition.common.PinyinUtil;
 import com.teambition.talk.BizLogic;
 import com.teambition.talk.imageloader.ImageLoaderConfig;
 import com.teambition.talk.MainApp;
@@ -22,6 +21,7 @@ import com.teambition.talk.entity.ChatItem;
 import com.teambition.talk.entity.FilterItem;
 import com.teambition.talk.ui.activity.ItemsActivity;
 import com.teambition.talk.ui.fragment.FilterFragment;
+import com.teambition.talk.util.PinyinUtil;
 import com.teambition.talk.util.StringUtil;
 import com.teambition.talk.util.ThemeUtil;
 

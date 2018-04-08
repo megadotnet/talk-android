@@ -8,13 +8,13 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.joooonho.SelectableRoundedImageView;
-import com.teambition.common.PinyinUtil;
 import com.teambition.talk.BizLogic;
 import com.teambition.talk.entity.Group;
 import com.teambition.talk.imageloader.ImageLoaderConfig;
 import com.teambition.talk.MainApp;
 import com.teambition.talk.R;
 import com.teambition.talk.entity.Member;
+import com.teambition.talk.util.PinyinUtil;
 
 import java.util.ArrayList;
 import java.util.Iterator;

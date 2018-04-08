@@ -5,8 +5,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.provider.ContactsContract;
 
-import com.teambition.common.PinyinUtil;
 import com.teambition.talk.entity.Contact;
+import com.teambition.talk.util.PinyinUtil;
 import com.teambition.talk.util.StringUtil;
 import com.teambition.talk.view.LocalContactsView;
 

@@ -5,7 +5,7 @@ buildscript {
         jcenter()
 
         maven {
-            url "http://maven.bughd.com/nexus/content/repositories/public"
+            url "http://maven.aliyun.com/nexus/content/groups/public/"
         }
     }
     dependencies {
@@ -15,7 +15,7 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
 
-        classpath 'im.fir:gradle-fir-publisher:1.0.2'
+        //classpath 'im.fir:gradle-fir-publisher:1.0.7'
         classpath 'com.mcxiaoke.gradle:packer-ng:1.0.4'
     }
 }
@@ -25,7 +25,7 @@ allprojects {
         jcenter()
 
         maven {
-            url "https://code.teambition.com/android-team/android-common/raw/master/aar"
+            url "https://jitpack.io"
         }
     }
 

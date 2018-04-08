@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import com.makeramen.roundedimageview.RoundedImageView;
 import com.talk.dialog.TalkDialog;
-import com.teambition.common.PinyinUtil;
 import com.teambition.talk.BizLogic;
 import com.teambition.talk.BusProvider;
 import com.teambition.talk.event.NewInvitationEvent;
@@ -27,6 +26,7 @@ import com.teambition.talk.event.UpdateMemberEvent;
 import com.teambition.talk.realm.InvitationRealm;
 import com.teambition.talk.realm.MemberDataProcess;
 import com.teambition.talk.realm.MemberRealm;
+import com.teambition.talk.util.PinyinUtil;
 import com.teambition.talk.util.StringUtil;
 import com.teambition.talk.util.ThemeUtil;
 

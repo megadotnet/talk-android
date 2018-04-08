@@ -10,10 +10,10 @@ import android.view.View;
 import android.widget.AdapterView;
 
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
-import com.teambition.common.PinyinUtil;
 import com.teambition.talk.R;
 import com.teambition.talk.adapter.PickCountryCodeAdapter;
 import com.teambition.talk.entity.CountryModel;
+import com.teambition.talk.util.PinyinUtil;
 
 import org.parceler.Parcels;
 

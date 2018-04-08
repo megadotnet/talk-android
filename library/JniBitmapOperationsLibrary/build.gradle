@@ -3,10 +3,10 @@ apply plugin: 'com.android.library'
 version '0.0.1'
 group 'com.jni.bitmap_operations'
 
+
 android {
     compileSdkVersion COMPILE_SDK_VERSION
     buildToolsVersion BUILD_TOOL_VERSION
-
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'

@@ -30,20 +30,20 @@ public class ApiConfig {
     public static String TPS_PUSH;
 
     static {
-        ACCOUNT_URL = "http://localhost:7001/account/v1";
-        REDIRECT_URI = "http://localhost:7001/account/union/callback/teambition";
-        BASE_URL = "http://localhost:7001/v2";
-        UPLOAD_URL = "http://localhost";
-        AUTHOR_URL = "http://localhost:7001/account/union/teambition";
-        POLICY_URL = "http://localhost:7001/site/items";
-        CALL_URL = "http://localhost:8883";
-        FORM_BASE_URL = "http://localhost:7001/v2/services/toapp?%s&_teamId=%s&url=%s";
-        ABSENCE_URL = "http://localhost/forms/leave/new";
-        SPIDER_URL = "http://localhost";
+        ACCOUNT_URL = "http://192.168.0.147:7001/account/v1";
+        REDIRECT_URI = "http://192.168.0.147:7001/account/union/callback/teambition";
+        BASE_URL = "http://192.168.0.147:7001/v2";
+        UPLOAD_URL = "http://192.168.0.147";
+        AUTHOR_URL = "http://192.168.0.147:7001/account/union/teambition";
+        POLICY_URL = "http://192.168.0.147:7001/site/items";
+        CALL_URL = "http://192.168.0.147:8883";
+        FORM_BASE_URL = "http://192.168.0.147:7001/v2/services/toapp?%s&_teamId=%s&url=%s";
+        ABSENCE_URL = "http://192.168.0.147/forms/leave/new";
+        SPIDER_URL = "http://192.168.0.147";
         SNAPPER_URL = "";
-        AUTH_SERVICE_URL = "http://localhost";
+        AUTH_SERVICE_URL = "http://192.168.0.147";
         FEEDBACK_INTEGRATION_ID = "";
-        TPS_API = "http://localhost";
+        TPS_API = "http://192.168.0.147";
         TPS_PUSH = "";
         //容联云需要的id,token,多人通话需要
         CALL_APP_ID = "";

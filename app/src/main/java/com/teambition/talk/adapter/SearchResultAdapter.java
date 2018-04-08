@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.teambition.common.PinyinUtil;
 import com.teambition.talk.BizLogic;
 import com.teambition.talk.imageloader.ImageLoaderConfig;
 import com.teambition.talk.MainApp;
@@ -23,6 +22,7 @@ import com.teambition.talk.realm.RoomRealm;
 import com.teambition.talk.ui.RowFactory;
 import com.teambition.talk.ui.activity.MessageSearchActivity;
 import com.teambition.talk.ui.row.MessageRow;
+import com.teambition.talk.util.PinyinUtil;
 import com.teambition.talk.util.StringUtil;
 import com.teambition.talk.util.ThemeUtil;
 

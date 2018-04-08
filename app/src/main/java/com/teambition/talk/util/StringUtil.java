@@ -6,7 +6,6 @@ import android.text.Spanned;
 import android.text.TextUtils;
 import android.text.style.CharacterStyle;
 
-import com.teambition.common.PinyinUtil;
 import com.teambition.talk.MainApp;
 import com.teambition.talk.R;
 import com.teambition.talk.client.data.InfoType;

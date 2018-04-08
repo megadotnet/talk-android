@@ -1,10 +1,10 @@
 package com.teambition.talk.realm;
 
 import com.google.gson.Gson;
-import com.teambition.common.PinyinUtil;
 import com.teambition.talk.BizLogic;
 import com.teambition.talk.GsonProvider;
 import com.teambition.talk.entity.Member;
+import com.teambition.talk.util.PinyinUtil;
 import com.teambition.talk.util.StringUtil;
 
 import java.util.ArrayList;

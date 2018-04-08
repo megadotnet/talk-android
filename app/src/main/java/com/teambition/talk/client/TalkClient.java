@@ -165,7 +165,7 @@ public class TalkClient {
             if (StringUtil.isNotBlank(socketId)) {
                 request.addHeader("X-Socket-Id", socketId);
             }
-            if (MainApp.BUILD_TYPE != MainApp.RELEASE || BuildConfig.BUILD_FOR_FIR) {
+            if (MainApp.BUILD_TYPE != MainApp.RELEASE ) {
                 request.addHeader("X-Release-Version", "ga");
             }
             request.addHeader("X-Client-Id", deviceId);

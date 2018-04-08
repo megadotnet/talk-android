@@ -9,10 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.teambition.common.PinyinUtil;
 import com.teambition.talk.R;
 import com.teambition.talk.entity.Group;
 import com.teambition.talk.ui.activity.GroupMemberActivity;
+import com.teambition.talk.util.PinyinUtil;
 
 import org.parceler.Parcels;
 

@@ -2,7 +2,6 @@ package com.teambition.talk.realm;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.teambition.common.PinyinUtil;
 import com.teambition.talk.BizLogic;
 import com.teambition.talk.GsonProvider;
 import com.teambition.talk.MainApp;
